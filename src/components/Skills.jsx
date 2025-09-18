@@ -30,6 +30,8 @@ import github from '../assets/skills/github.svg';
 import powerbi from '../assets/skills/powerbi.svg';
 import swift from '../assets/skills/swift.svg';
 import android from '../assets/skills/android.svg';
+import laravel from '../assets/skills/laravel.svg';
+import angular from '../assets/skills/angular.svg';
 
 import { Row, Col } from 'react-bootstrap';
 
@@ -95,6 +97,8 @@ const Skills = () => {
         <Skill image={powerbi} name="PoweBi"/>
         <Skill image={swift} name="Swift"/>
         <Skill image={android} name="Android Studio"/>
+        <Skill image={laravel} name="Laravel"/>
+        <Skill image={angular} name="Angular"/>
       </Row>
     </div>
   );

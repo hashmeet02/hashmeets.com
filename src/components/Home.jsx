@@ -35,12 +35,13 @@ const Home = () => {
           <img src={memoji2} alt="Memoji"/>
         </Col>
         <Col md={7}>
-          <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-2'>Hi👋🏼, my name is</div>
+          <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-2'>Hi <span className='hover:rotate-90 transition-transform duration-500 inline-block'>👋🏼</span>
+, my name is</div>
           <div className='text-6xl md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl my-2'>
             <span>
               <TypeAnimation
                 sequence={[
-                  "Hashmeet Singh Saini",
+                  "Hashmeet Singh Saini.",
                   1000,
                 ]}
                 wrapper='div'
@@ -50,26 +51,26 @@ const Home = () => {
             </span>
           </div>
           <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-4' ref={animationRef}>
-            I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
+            I'm a  
             <span>
               <br />
               {isInView && (
                 <TypeAnimation
                   sequence={[
-                    "a Full-Stack ",
-                    1000,
-                    "a Software",
-                    1000,
-                    "an Application",
-                    1000,
+                    "Software Developer",
+                    4000
                   ]}
                   wrapper='div'
-                  speed={40}
+                  speed={20}
                   repeat={Infinity}
                 />
               )}
             </span>
-            Developer candidate in Toronto 🍁.
+            @ 
+              <a href="https://mercurymortgages.com/" target="_blank" rel="noopener noreferrer" className='text-white mx-2 hover:!text-orange-500 duration-300 transition'>
+                Mercury Mortgages Inc.
+              </a>
+             based in Toronto 🍁.
           </div>
         </Col>
       </Row>
