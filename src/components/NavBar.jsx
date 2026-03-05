@@ -12,7 +12,7 @@ const NavBar = () => {
               alt="Hashmeet Logo"
               className="h-12" // Adjust the height of the logo as needed
             /> */}
-            <div className='text-3xl text-orange-400'>HASHMEET S. SAINI</div>
+            <div className='text-3xl text-orange-400'>HASHMEET S.</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
           <Navbar.Collapse id="basic-navbar-nav" className="p-2 rounded-3xl">

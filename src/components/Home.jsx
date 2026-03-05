@@ -41,7 +41,7 @@ const Home = () => {
             <span>
               <TypeAnimation
                 sequence={[
-                  "Hashmeet Singh Saini.",
+                  "Hashmeet S.",
                   1000,
                 ]}
                 wrapper='div'

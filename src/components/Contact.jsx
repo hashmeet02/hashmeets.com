@@ -95,12 +95,6 @@ const Contact = () => {
             <a href="https://github.com/hashmeet02" className='text-white' target="_blank" rel="noopener noreferrer">
                 <FaGithub size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
             </a>
-            <a href="https://x.com/Hashmee04251863" className='text-white' target="_blank" rel="noopener noreferrer">
-                <BsTwitterX size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
-            </a>
-            <a href="http://vsco.co/hashmeetsaini?share=MTcyMzQ4NTY4Mw%3D%3D" className='text-white' target="_blank" rel="noopener noreferrer">
-                <FaCamera size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
-            </a>
             <a href="https://music.apple.com/profile/hashmeet_s" className='text-white' target="_blank" rel="noopener noreferrer">
                 <SiApplemusic size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
             </a>
