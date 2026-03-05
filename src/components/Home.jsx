@@ -8,22 +8,24 @@ const Home = () => {
   const animationRef = useRef(null);
 
   useEffect(() => {
+    const node = animationRef.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsInView(entry.isIntersecting);
       },
       {
-        threshold: 0.1, // Adjust this threshold as needed
+        threshold: 0.1,
       }
     );
 
-    if (animationRef.current) {
-      observer.observe(animationRef.current);
+    if (node) {
+      observer.observe(node);
     }
 
     return () => {
-      if (animationRef.current) {
-        observer.unobserve(animationRef.current);
+      if (node) {
+        observer.unobserve(node);
       }
     };
   }, []);
