@@ -88,7 +88,7 @@ const Contact = () => {
           </Form>
         </div>
         <div className='flex pt-16'>
-            <a href="https://www.linkedin.com/in/hashmeet-singh-saini/" className='text-white' target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/hashmeet-s/" className='text-white' target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
             </a>
             <a href="https://github.com/hashmeet02" className='text-white' target="_blank" rel="noopener noreferrer">
