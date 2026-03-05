@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import contact from "../assets/contact.svg";
 import { Form, Button } from 'react-bootstrap';
-import { FaGithub, FaLinkedinIn, FaCamera } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
 import emailjs from 'emailjs-com';
 
