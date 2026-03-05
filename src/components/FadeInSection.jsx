@@ -12,7 +12,7 @@ const FadeInSection = ({ children }) => {
       controls.start("visible");
     //   slideControls.start("visible");
     }
-  }, [isInView]);
+  }, [controls,sInView]);
 
   return (
     <div ref={ref} className='relative over'>
